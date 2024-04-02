@@ -3494,7 +3494,7 @@ __metadata:
     autoprefixer: "npm:^10.0.1"
     eslint: "npm:^8"
     eslint-config-next: "npm:14.1.4"
-    newrelic: "npm:^11.8.0"
+    newrelic: "npm:^11.14.0"
     next: "npm:^13"
     postcss: "npm:^8"
     react: "npm:^18"
@@ -3504,7 +3504,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"newrelic@npm:^11.8.0":
+"newrelic@npm:^11.14.0":
   version: 11.14.0
   resolution: "newrelic@npm:11.14.0"
   dependencies:

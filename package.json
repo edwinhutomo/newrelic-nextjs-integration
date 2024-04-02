@@ -11,7 +11,7 @@
   "dependencies": {
     "@newrelic/next": "^0.8.0",
     "@types/newrelic": "^9.14.3",
-    "newrelic": "^11.8.0",
+    "newrelic": "^11.14.0",
     "next": "^13",
     "react": "^18",
     "react-dom": "^18"
