@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import newrelic from 'newrelic';
-import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,17 +14,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const browserTimingHeader = newrelic.getBrowserTimingHeader({
-    hasToRemoveScriptWrapper: true,
-  });
   return (
     <html lang="en">
-    <Head>
-      <script
-          type="text/javascript"
-          dangerouslySetInnerHTML={{ __html: browserTimingHeader }}
-      />
-    </Head>
       <body className={inter.className}>{children}</body>
     </html>
   );
